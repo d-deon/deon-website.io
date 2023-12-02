@@ -12,7 +12,9 @@ body {
   font-size: 1.2rem;
   color: white;
   min-height: 100vh;
+  cursor: url('images/pen-cursor-48.png'),auto;
 }
+
  
 .full-height-grow {
     display:flex;
@@ -45,6 +47,8 @@ body {
 
 .main-nav a:hover, .main-footer a:hover{
   color: #adadad;
+  cursor:pointer;
+ 
 }
 .main-header, .main-footer {
 display: flex;
@@ -104,14 +108,16 @@ align-items: center;
     font-size: .9rem;
     outline: none;
     border:none;
-    cursor:pointer;
+    
 }
 
 .btn:hover{
 
     background-color:#2180db ;
+    cursor:pointer;
 }
 
 .btn:focus{
     background-color: #2796ff;
+    cursor:pointer;
 }
