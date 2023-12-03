@@ -8,8 +8,30 @@
 .discover-main-section .cover-image {
     width:30vw;
     height:auto;
-    max-width: 650px;
-    margin-left: 3rem;
+    max-width: 350px;
+    margin-left: 7rem;
+}
+
+.icon-section{
+    display: flex;
+    height:auto;
+    max-width:200px;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.icon {
+   
+    margin: 2rem 2rem 4rem 2rem;
+    padding:.73rem;
+    background-color: rgba(117, 71, 15, 0.3);
+    flex-grow: 20;
+
+}
+
+.icon img {
+    width:100px;
 }
 
 
@@ -23,4 +45,8 @@
         height: 30vh;
         width:auto;
     }
+}
+
+body{
+    font-size: 1.2rem;
 }

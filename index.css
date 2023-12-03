@@ -95,7 +95,7 @@
   
   .home-page-circle-4::before {
     content: '';
-    transform: translate(-40%, 60%);
+    transform: translate(-30%, 60%);
     position: absolute;
     height: 100%;
     width: 100%;

@@ -20,6 +20,9 @@
     justify-content: space-between;
 
 }
+body{
+    font-size: 1.12rem;
+}
 
 .icon {
    
@@ -46,15 +49,3 @@
     }
 }
 
-/* @media(max-width:200px) {
-    .icon-section .icon{
-        flex-direction: column;
-        justify-content: center;
-        margin-right: 2rem;
-    }
-    .icon-section .icon{
-        margin-right: 2rem;
-        height: 30vh;
-        width:auto;
-    }
-} */
