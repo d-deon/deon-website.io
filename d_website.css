@@ -9,7 +9,7 @@ body {
   margin: 0;
   background-image: radial-gradient(circle, #753300 0%, #ff950082 100%); 
   font-family: Poppins, sans-serif;
-  font-size: 0.9rem;
+  font-size: 1.2rem;
   color: white;
   min-height: 100vh;
   cursor: url('images/pen-cursor-48.png'),auto;
@@ -70,7 +70,7 @@ align-items: center;
 .social-link img{
     width:1.3em;
     margin-right: 0.25rem;
-    /* margin-bottom: -2.5rem; */
+   
     
 }
 
@@ -121,3 +121,7 @@ align-items: center;
     background-color: #2796ff;
     cursor:pointer;
 }
+audio::-webkit-media-controls-panel {
+  background-image:linear-gradient(to bottom right, rgba(255, 174, 0, 0.408), rgba(1, 17, 57, 0.598));
+  
+} 

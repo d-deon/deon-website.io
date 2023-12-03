@@ -89,3 +89,7 @@ margin-bottom: .5rem;
     border-radius: 50%;
     background-color: rgba(117, 71, 15, 0.3);
   }
+  audio::-webkit-media-controls-panel {
+    background-image:linear-gradient(to bottom right, rgba(255, 174, 0, 0.408), rgba(1, 17, 57, 0.598));
+    
+} 
