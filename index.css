@@ -1,9 +1,4 @@
-/* .home-main-section { //this works for settling stuff in the middle just in case
-    display: flex;
-    flex-direction: column; 
-    align-items: center;
-    flex-grow: 1;
-} */ 
+
 .home-main-section {
     display: flex;
     align-items: stretch;
